@@ -16,6 +16,13 @@
 		E27335341794C3B10036304D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E27335331794C3B10036304D /* Default.png */; };
 		E27335361794C3B10036304D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27335351794C3B10036304D /* Default@2x.png */; };
 		E27335381794C3B10036304D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27335371794C3B10036304D /* Default-568h@2x.png */; };
+		E273353F1794C3D30036304D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E273353E1794C3D30036304D /* QuartzCore.framework */; };
+		E27335471794C40A0036304D /* JMIBlurLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E27335431794C40A0036304D /* JMIBlurLayer.m */; };
+		E27335481794C40A0036304D /* JMIBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27335461794C40A0036304D /* JMIBlurView.m */; };
+		E273354F1794C48F0036304D /* JMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E273354A1794C48F0036304D /* JMIViewController.m */; };
+		E27335501794C48F0036304D /* NSObject+MyCAFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E273354C1794C48F0036304D /* NSObject+MyCAFilter.m */; };
+		E27335511794C48F0036304D /* Swizz.c in Sources */ = {isa = PBXBuildFile; fileRef = E273354D1794C48F0036304D /* Swizz.c */; };
+		E27335531794C5580036304D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27335521794C5580036304D /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,20 @@
 		E27335331794C3B10036304D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E27335351794C3B10036304D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E27335371794C3B10036304D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E273353E1794C3D30036304D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E27335411794C40A0036304D /* JMIBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMIBlur.h; sourceTree = "<group>"; };
+		E27335421794C40A0036304D /* JMIBlurLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMIBlurLayer.h; sourceTree = "<group>"; };
+		E27335431794C40A0036304D /* JMIBlurLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMIBlurLayer.m; sourceTree = "<group>"; };
+		E27335441794C40A0036304D /* JMIBlurStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMIBlurStyle.h; sourceTree = "<group>"; };
+		E27335451794C40A0036304D /* JMIBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMIBlurView.h; sourceTree = "<group>"; };
+		E27335461794C40A0036304D /* JMIBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMIBlurView.m; sourceTree = "<group>"; };
+		E27335491794C48F0036304D /* JMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMIViewController.h; sourceTree = "<group>"; };
+		E273354A1794C48F0036304D /* JMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMIViewController.m; sourceTree = "<group>"; };
+		E273354B1794C48F0036304D /* NSObject+MyCAFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MyCAFilter.h"; sourceTree = "<group>"; };
+		E273354C1794C48F0036304D /* NSObject+MyCAFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MyCAFilter.m"; sourceTree = "<group>"; };
+		E273354D1794C48F0036304D /* Swizz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Swizz.c; sourceTree = "<group>"; };
+		E273354E1794C48F0036304D /* Swizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swizz.h; sourceTree = "<group>"; };
+		E27335521794C5580036304D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27335531794C5580036304D /* MediaPlayer.framework in Frameworks */,
+				E273353F1794C3D30036304D /* QuartzCore.framework in Frameworks */,
 				E27335221794C3B10036304D /* UIKit.framework in Frameworks */,
 				E27335241794C3B10036304D /* Foundation.framework in Frameworks */,
 				E27335261794C3B10036304D /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +91,8 @@
 		E27335201794C3B10036304D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E27335521794C5580036304D /* MediaPlayer.framework */,
+				E273353E1794C3D30036304D /* QuartzCore.framework */,
 				E27335211794C3B10036304D /* UIKit.framework */,
 				E27335231794C3B10036304D /* Foundation.framework */,
 				E27335251794C3B10036304D /* CoreGraphics.framework */,
@@ -78,8 +103,15 @@
 		E27335271794C3B10036304D /* JMIBlurView */ = {
 			isa = PBXGroup;
 			children = (
+				E27335401794C3EB0036304D /* Classes */,
 				E27335301794C3B10036304D /* JMIAppDelegate.h */,
 				E27335311794C3B10036304D /* JMIAppDelegate.m */,
+				E27335491794C48F0036304D /* JMIViewController.h */,
+				E273354A1794C48F0036304D /* JMIViewController.m */,
+				E273354B1794C48F0036304D /* NSObject+MyCAFilter.h */,
+				E273354C1794C48F0036304D /* NSObject+MyCAFilter.m */,
+				E273354D1794C48F0036304D /* Swizz.c */,
+				E273354E1794C48F0036304D /* Swizz.h */,
 				E27335281794C3B10036304D /* Supporting Files */,
 			);
 			path = JMIBlurView;
@@ -97,6 +129,19 @@
 				E27335371794C3B10036304D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E27335401794C3EB0036304D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E27335411794C40A0036304D /* JMIBlur.h */,
+				E27335421794C40A0036304D /* JMIBlurLayer.h */,
+				E27335431794C40A0036304D /* JMIBlurLayer.m */,
+				E27335441794C40A0036304D /* JMIBlurStyle.h */,
+				E27335451794C40A0036304D /* JMIBlurView.h */,
+				E27335461794C40A0036304D /* JMIBlurView.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +212,11 @@
 			files = (
 				E273352E1794C3B10036304D /* main.m in Sources */,
 				E27335321794C3B10036304D /* JMIAppDelegate.m in Sources */,
+				E27335471794C40A0036304D /* JMIBlurLayer.m in Sources */,
+				E27335481794C40A0036304D /* JMIBlurView.m in Sources */,
+				E273354F1794C48F0036304D /* JMIViewController.m in Sources */,
+				E27335501794C48F0036304D /* NSObject+MyCAFilter.m in Sources */,
+				E27335511794C48F0036304D /* Swizz.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +299,10 @@
 				GCC_PREFIX_HEADER = "JMIBlurView/JMIBlurView-Prefix.pch";
 				INFOPLIST_FILE = "JMIBlurView/JMIBlurView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_LDFLAGS = (
+					"-Wextra",
+					"-Wall",
+				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -260,6 +314,10 @@
 				GCC_PREFIX_HEADER = "JMIBlurView/JMIBlurView-Prefix.pch";
 				INFOPLIST_FILE = "JMIBlurView/JMIBlurView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_LDFLAGS = (
+					"-Wextra",
+					"-Wall",
+				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
